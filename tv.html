@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+	<head>
+		<title> The Movie Land </title>  
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="Links/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="Links/CSS/TheMovieLand.css" type="text/css">
+		<link rel="stylesheet" href="Links/CSS/movies.css" type="text/css">
+		<script src="Links/JQuery/jquery-3.1.0.min.js"></script>
+		<script src="Links/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	</head>
+  
+	<body>
+
+		<!-- Navigation -->
+			
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			
+			<div class="container">	
+				
+				<div class="navbar-header">
+					
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+					<a class="navbar-brand" href="index.html"> <img class="img-responsive" src="Logo Images/19.png" alt="The Hobbit"> </a>	
+				
+				</div>
+				
+				<div class="collapse navbar-collapse" id="myNavbar">
+					
+					<ul class="nav navbar-nav">		
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="movies.html">MOVIES</a></li>
+						<li><a href="tv.html">TV-SERIES</a></li>
+						<li><a href="contact.html">CONTACT US</a></li>
+					</ul>
+					
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+				
+				</div>
+			
+			</div>
+		
+		</nav>
+		
+		<!-- Main Body Section -->
+
+		<div class="container" style="padding-top:5%;">
+			
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner" role="listbox">
+
+					<div class="item active">
+						<a data-toggle="modal" data-target="#myModal"> 
+							<img class="img-responsive" src="Slider Images/Game of Thrones.jpg" alt="Game of Thrones" id="imgSize">
+							<h2 class="text"> Watch Trailer </h2>
+						</a>
+					</div>
+					<div id="myModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Game of Thrones </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/EI0ib1NErqg" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item"> 
+						<a data-toggle="modal" data-target="#myModal1"> 
+							<img class="img-responsive" src="Slider Images/The Flash.jpg" alt="The Flash" id="imgSize">
+							<h2 class="text"> Watch Trailer </h2>
+						</a>
+					</div>
+					<div id="myModal1" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> The Flash </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/UMRBs0-OXCA" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item"> 
+						<a data-toggle="modal" data-target="#myModal2"> 
+							<img class="img-responsive" src="Slider Images/Marvel's Agents of S.H.I.E.L.D. Season 3.jpg" alt="Marvel's Agents of S.H.I.E.L.D. Season 3" id="imgSize">
+							<h2 class="text"> Watch Trailer </h2>
+						</a>
+					</div>
+					<div id="myModal2" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Marvel's Agents of S.H.I.E.L.D. Season 3 </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/BIWeBrRI3HM" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			
+			</div>
+			<br>
+			<h3> S E A S O N S  </h3>
+			
+			
+			<div class="row" style="margin-top:20px;">
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModa3"> 
+						<img class="img-responsive" src="Poster Images/TV-Seasons/Game of Thrones.jpg" alt="Game of Thrones">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModa3" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Game of Thrones.jpg </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/EI0ib1NErqg" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModa4"> 
+						<img class="img-responsive" src="Poster Images/TV-Seasons/The Flash.jpg" alt="The Flash">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModa4" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> The Flash </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/UMRBs0-OXCA" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal5"> 
+						<img class="img-responsive" src="Poster Images/TV-Seasons/Agents Of SHEILD.jpg" alt="Agents Of SHEILD">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal5" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Agents Of SHEILD </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/BIWeBrRI3HM" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal6"> 
+						<img class="img-responsive" src="Poster Images/TV-Seasons/Arrow.jpg" alt="Arrow">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal6" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Arrow </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/LxG7JR4-nCM" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-- Footer -->
+		
+		<footer class="container-fluid text-center">	<p> The Movie Land &copy; 2016 All Rights Reserved | Privacy Policy </p> </footer>
+		
+		<script>
+			$("#myModal").on('hidden.bs.modal',function (e){$("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));});
+			$("#myModal1").on('hidden.bs.modal',function (e){$("#myModal1 iframe").attr("src", $("#myModal1 iframe").attr("src"));});
+			$("#myModal2").on('hidden.bs.modal',function (e){$("#myModal2 iframe").attr("src", $("#myModal2 iframe").attr("src"));});
+			$("#myModal3").on('hidden.bs.modal',function (e){$("#myModal3 iframe").attr("src", $("#myModal3 iframe").attr("src"));});
+			$("#myModal4").on('hidden.bs.modal',function (e){$("#myModal4 iframe").attr("src", $("#myModal4 iframe").attr("src"));});
+			$("#myModal5").on('hidden.bs.modal',function (e){$("#myModal5 iframe").attr("src", $("#myModal5 iframe").attr("src"));});
+			$("#myModal6").on('hidden.bs.modal',function (e){$("#myModal6 iframe").attr("src", $("#myModal6 iframe").attr("src"));});
+		</script>
+		
+	</body>
+
+</html>

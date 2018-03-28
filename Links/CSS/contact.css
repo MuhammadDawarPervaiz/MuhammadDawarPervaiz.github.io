@@ -1,0 +1,39 @@
+.b
+{
+	background:url("../../Background Images/1.png");
+	background-size: 1200px 750px;
+}
+.form-group
+{
+	box-shadow:0px 0px 4px 2px black;
+	width:60%;
+	height:500px;
+	padding:2%;
+	padding-top:.1%;
+	margin:auto;
+	margin-bottom:5%;
+	margin-top:5%;
+	background:#292A2A;
+	opacity:0.95;
+}
+.form-control
+{
+	background:#3A3B3B;
+	color:#9d9d9d;
+}
+.col-sm-2
+{
+	background:none;
+	padding-top:0px;
+	margin:0px;
+}
+.form-group p
+{
+	color:#9d9d9d;
+	margin-bottom:-5px;
+	margin-top:-15px;
+}
+h5
+{
+	color:royalblue;
+}

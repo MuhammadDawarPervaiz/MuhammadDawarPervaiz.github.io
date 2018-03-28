@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+	<head>
+
+		<title> The Movie Land </title>  
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="Links/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="Links/CSS/TheMovieLand.css" type="text/css">
+		<script src="Links/JQuery/jquery-3.1.0.min.js"></script>
+		<script src="Links/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		
+	</head>
+  
+	<body>
+
+		<!-- Navigation -->
+			
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			
+			<div class="container">	
+				
+				<div class="navbar-header">
+					
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+					<a class="navbar-brand" href="index.html"> <img class="img-responsive" src="Logo Images/19.png" alt="The Hobbit"> </a>
+				
+				</div>
+				
+				<div class="collapse navbar-collapse" id="myNavbar">
+					
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="movies.html">MOVIES</a></li>
+						<li><a href="tv.html">TV-SERIES</a></li>
+						<li><a href="contact.html">CONTACT US</a></li>
+					</ul>
+					
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+				
+				</div>
+			
+			</div>
+		
+		</nav>
+		
+		<!-- Main Body Section -->
+
+		<div class="container">
+			
+			<h1> MOVIES </h1>
+			
+			<!-- Slider -->
+			
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner" role="listbox">
+
+					<div class="item active">
+						<a data-toggle="modal" data-target="#myModal12"> 
+							<img class="img-responsive" src="Slider Images/slide-3.jpg" alt="The Hobbit" id="imgSize">
+							<h2 class="text"> Watch Trailer </h2>
+						</a>
+					</div>
+					<div id="myModal12" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> The Hobbit </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/iVAgTiBrrDA" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item"> 
+						<a data-toggle="modal" data-target="#myModal13"> 
+							<img class="img-responsive" src="Slider Images/suicide-squad.jpg" alt="Suicide Squad" id="imgSize">
+							<h2 class="text"> Watch Trailer </h2>
+						</a>
+					</div>
+					<div id="myModal13" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Suicide Squad </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/SULFiCh0Zsw" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item"> 
+						<a data-toggle="modal" data-target="#myModal13"> 
+							<img class="img-responsive" src="Slider Images/slide-2.jpg" alt="Les Miserables" id="imgSize">
+							<h2 class="text"> Watch Trailer </h2>
+						</a>
+					</div>
+					<div id="myModal13" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Les Miserables </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/NvzgxKHYFIc" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			
+			</div>
+			
+			<!-- Posters -->
+			
+			<br>
+			<h3> <span class="glyphicon glyphicon-star"></span> Popular Downloads </h3>
+			<hr>
+			
+			<div class="row" style="margin-top:20px;">
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal"> 
+						<img class="img-responsive hover" src="Poster Images/Sci-Fi/X-men Apocalypse.jpg" alt="X-men Apocalypse">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> X-men Apocalypse </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/Jer8XjMrUB4" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal1"> 
+						<img class="img-responsive" src="Poster Images/Sci-Fi/Civil War.jpg" alt="Civil War">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal1" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Civil War </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/dKrVegVI0Us" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal2"> 
+						<img class="img-responsive" src="Poster Images/Action/Batman vs Superman.jpg" alt="Batman vs Superman">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal2" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Batman vs Superman </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/eX_iASz1Si8" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal3"> 
+						<img class="img-responsive" src="Poster Images/Horror/The Conjuring 2.jpg" alt="The Conjuring 2">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal3" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> The Conjuring 2 </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/VFsmuRPClr4" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<h3> <span class="glyphicon glyphicon-star"></span> In Theaters </h3>
+			
+			<hr>
+			
+			<div class="row" style="margin-top:20px;">
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal4"> 
+						<img class="img-responsive" src="Poster Images/Action/Tarzan.jpg" alt="Tarzan">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal4" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Tarzan </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/v5r6FrEgg5M" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal5"> 
+						<img class="img-responsive" src="Poster Images/Horror/Lights Out.jpg" alt="Lights Out">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal5" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Lights Out </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/Ct8kBEWmG_s" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal6"> 
+						<img class="img-responsive" src="Poster Images/Animation/Finding Dory.jpg" alt="Finding Dory">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal6" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Finding Dory </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/CBa4r_aKtYI" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal7"> 
+						<img class="img-responsive" src="Poster Images/Action/Ghostbusters.jpg" alt="Ghostbusters">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal7" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Ghost Busters </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/w3ugHP-yZXw" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<h3> <span class="glyphicon glyphicon-star"></span> Up Comming </h3>
+			
+			<hr>
+			
+			<div class="row" style="margin-top:20px;">
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal8"> 
+						<img class="img-responsive" src="Poster Images/Horror/Ouija.jpg" alt="Ouija">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal8" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Ouija </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/MJIcZGEjjwo" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal9"> 
+						<img class="img-responsive" src="Poster Images/Drama/The Accountant.jpg" alt="The Accountant">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal9" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> The Accountant </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/fkPJ3aENjvM" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal10"> 
+						<img class="img-responsive" src="Poster Images/Action/Mechanic.jpg" alt="Mechanic">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal10" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Mechanic </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/G-P3f_wDXvs" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"> 
+					<a data-toggle="modal" data-target="#myModal11"> 
+						<img class="img-responsive" src="Poster Images/Action/Doctor Strange.jpg" alt="Doctor Strange">
+						<h2 class="text"> Watch Trailer </h2>
+					</a>
+					<div id="myModal11" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content modal-altr">
+								<div class="modal-header modal-altr">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title"> Doctor Strange </h4>
+								</div>
+								<div class="modal-body">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/HSzx-zryEgM" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer modal-altr">
+								<button type="button" class="btn btn-default modal-altr" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<!-- Footer -->
+		
+		<footer class="container-fluid text-center">	<p> The Movie Land &copy; 2016 All Rights Reserved | Privacy Policy </p> </footer>
+		
+		<script>
+			$("#myModal").on('hidden.bs.modal',function (e){$("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));});
+			$("#myModal1").on('hidden.bs.modal',function (e){$("#myModal1 iframe").attr("src", $("#myModal1 iframe").attr("src"));});
+			$("#myModal2").on('hidden.bs.modal',function (e){$("#myModal2 iframe").attr("src", $("#myModal2 iframe").attr("src"));});
+			$("#myModal3").on('hidden.bs.modal',function (e){$("#myModal3 iframe").attr("src", $("#myModal3 iframe").attr("src"));});
+			$("#myModal4").on('hidden.bs.modal',function (e){$("#myModal4 iframe").attr("src", $("#myModal4 iframe").attr("src"));});
+			$("#myModal5").on('hidden.bs.modal',function (e){$("#myModal5 iframe").attr("src", $("#myModal5 iframe").attr("src"));});
+			$("#myModal6").on('hidden.bs.modal',function (e){$("#myModal6 iframe").attr("src", $("#myModal6 iframe").attr("src"));});
+			$("#myModal7").on('hidden.bs.modal',function (e){$("#myModal7 iframe").attr("src", $("#myModal7 iframe").attr("src"));});
+			$("#myModal8").on('hidden.bs.modal',function (e){$("#myModal8 iframe").attr("src", $("#myModal8 iframe").attr("src"));});
+			$("#myModal9").on('hidden.bs.modal',function (e){$("#myModal9 iframe").attr("src", $("#myModal9 iframe").attr("src"));});
+			$("#myModal10").on('hidden.bs.modal',function (e){$("#myModal10 iframe").attr("src", $("#myModal10 iframe").attr("src"));});
+			$("#myModal11").on('hidden.bs.modal',function (e){$("#myModal11 iframe").attr("src", $("#myModal11 iframe").attr("src"));});
+			$("#myModal12").on('hidden.bs.modal',function (e){$("#myModal12 iframe").attr("src", $("#myModal12 iframe").attr("src"));});
+			$("#myModal13").on('hidden.bs.modal',function (e){$("#myModal13 iframe").attr("src", $("#myModal13 iframe").attr("src"));});
+			$("#myModal14").on('hidden.bs.modal',function (e){$("#myModal14 iframe").attr("src", $("#myModal14 iframe").attr("src"));});
+		</script>
+	</body>
+
+</html>
